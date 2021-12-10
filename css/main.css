@@ -1,3 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,500;1,400&display=swap");
+body {
+  width: 100%;
+  font-family: "Poppins", sans-serif !important;
+  background-image: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+  background-repeat: no-repeat;
+  color: #fff;
+}
 
+.transparent-text {
+  font-size: 20px;
+  line-height: 40px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.myBtn-primary, .myBtn-transparent {
+  background-image: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  color: white !important;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 8px 16px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.myBtn-transparent {
+  background: rgba(255, 255, 255, 0.1);
+  text-decoration: none;
+  display: inline-block;
+}
+.myBtn-transparent:hover {
+  text-decoration: none;
+}
+
+.img-box {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-radius: 10px;
+}
+
+header {
+  padding: 15px 0;
+}
+header .navbar-toggler {
+  border: none !important;
+  outline: none !important;
+  color: #fff !important;
+}
+header .navbar-toggler:active {
+  border: none !important;
+  outline: none !important;
+}
+header a {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  color: white !important;
+  transition: all 0.5s ease;
+}
+header a:hover {
+  color: #2d2dff !important;
+}
+header .search {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  outline: none !important;
+  display: flex;
+  align-items: center;
+  padding: 6px 16px;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+header .search input {
+  outline: none;
+  border: none;
+  background: none;
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+
+#collect h1 {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: bold;
+  margin: 20px 0;
+}
+#collect h2 {
+  font-size: 30px;
+  line-height: 120%;
+  font-weight: bold;
+}
+#collect .cards {
+  display: grid;
+  gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 75px;
+}
+#collect .cards .horizontal {
+  grid-column: span 2;
+}
+#collect .cards .vertical {
+  grid-row: span 2;
+}
+
+#about h1 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: bold;
+}
+#about h2 {
+  font-size: 30px;
+  line-height: 45px;
+}
+
+#Colleaction h1 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: bold;
+}
+#Colleaction h2 {
+  font-size: 30px;
+  line-height: 45px;
+}
+#Colleaction .btns a {
+  transition: all 0.5s ease !important;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.5) !important;
+}
+#Colleaction .btns a:hover {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%) !important;
+}
+#Colleaction .col-z h3, #Colleaction .col-z p {
+  font-size: 14px;
+  line-height: 30px;
+}
+#Colleaction .trans-img {
+  width: 35%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#Colleaction .swiper-slide {
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#Colleaction .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#question h1 {
+  font-size: 40px;
+  line-height: 47px;
+  font-weight: bold;
+}
+#question h2 {
+  font-size: 30px;
+  line-height: 45px;
+}
+#question .ready {
+  background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border-radius: 20px;
+}
+#question .accordion {
+  background: none !important;
+}
+#question .accordion .accordion-item {
+  background: none !important;
+  border-bottom: 1px solid #fff;
+}
+#question .accordion .accordion-header {
+  color: #fff !important;
+}
+#question .accordion .accordion-button {
+  background: none !important;
+}
+#question .accordion .accordion-button:focus {
+  box-shadow: none !important;
+}
+#question .accordion .accordion-button::after {
+  background-image: url("../images/icons8-plus-48.png");
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer nav {
+  display: flex;
+  flex-direction: column;
+}
+footer nav a, footer nav .logo-bottom {
+  text-decoration: none;
+  font-size: 16px !important;
+}
+footer nav i {
+  font-size: 32px !important;
+}
 
 /*# sourceMappingURL=main.css.map */

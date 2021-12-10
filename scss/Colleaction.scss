@@ -1,0 +1,57 @@
+#Colleaction{
+    h1{
+        font-size: 40px;
+        line-height: 47px;
+        font-weight: bold;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .btns{
+        a{
+            transition: all .5s ease !important;
+            background: rgba(255, 255, 255, 0.1);
+            color: rgba(255, 255, 255, 0.5) !important;
+            &:hover{
+                background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%) !important;
+            }
+        }
+    }
+    .col-z{
+        h3, p{
+            font-size: 14px;
+            line-height: 30px;
+        }
+    }
+    .trans-img{
+        width: 35%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .swiper-slide {
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+}

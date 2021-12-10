@@ -1,0 +1,17 @@
+footer{
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        a, .logo-bottom{
+            text-decoration: none;
+            font-size: 16px !important;
+        }
+        i{
+            font-size: 32px !important;
+        }
+    }
+}

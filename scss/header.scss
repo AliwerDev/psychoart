@@ -1,0 +1,37 @@
+header{
+    padding: 15px 0;
+    .navbar-toggler{
+        border: none !important;
+        outline: none !important;
+        color: #fff !important;
+        &:active{
+            border: none !important;
+            outline: none !important;
+        }
+    }
+    a{
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 500;
+        color: white !important;
+        transition: $transition;
+        &:hover{
+            color: rgb(45, 45, 255) !important;
+        }
+    }
+    .search{
+        background-color: $transparent-btn-bg !important;
+        outline: none !important;
+        display: flex;
+        align-items: center;
+        padding: 6px 16px;
+        border-radius: $border-radius;
+        color: rgba(255, 255, 255, 0.5) !important;
+        input{
+            outline: none;
+            border: none;
+            background: none;
+            color: rgba(255, 255, 255, 0.5) !important;
+        }
+    }
+}

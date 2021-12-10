@@ -5,15 +5,1121 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>PsychoArt</title>
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     
 
+    <header>
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/PsychoArt.png" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fas fa-bars"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <form action="#" class="search ms-lg-4 my-3">
+                            <i class="fas fa-search"></i>
+                            <input class="ms-1" type="search" placeholder="Search items and collections">
+                        </form>
+                        <ul class="navbar-nav ms-auto mb-2 me-4 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Collections</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Feature</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <button class="myBtn-primary" type="submit">Select Wallet</button>
+                        </form>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </header>
+
+    <section id="collect">
+        <div class="container">
+            <div class="row text-white">
+                <div class="col-lg-5 py-5 px-lg-5 col-md-12">
+                    <h1>Create, Sell & Collect Your Own Creative NFT</h1>
+                    <p class="transparent-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit.</p>
+                    <div class="d-flex">
+                        <div class="myBtn-primary">Explore Now</div>
+                        <div class="ms-2 myBtn-transparent">Sell NFT</div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-4">
+                            <h2>34k+</h2>
+                            <p class="transparent-text">Artworks</p>
+                        </div>
+                        <div class="col-4">
+                            <h2>20k+</h2>
+                            <p class="transparent-text">Artists</p>
+                        </div>
+                        <div class="col-4">
+                            <h2>99k+</h2>
+                            <p class="transparent-text">Aucations</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 py-5 px-lg-5">
+                    <div class="row p-0 m-0">
+                        <div class="col-4">
+                            <div class="d-flex flex-column gap-2 justify-content-center">
+                                   <img class="img-fluid" src="images/Rectangle 15.png" alt="">
+
+                                    <img class="img-fluid" src="images/Rectangle 16.png" alt="">
+
+                                    <img class="img-fluid" src="images/Rectangle 17.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="d-flex flex-column gap-2 justify-content-center">
+
+                                    <img class="img-fluid" src="images/Rectangle 18.png" alt="">
+
+                                    <img class="img-fluid" src="images/Rectangle 19.png" alt="">
+
+                                    <img class="img-fluid" src="images/Rectangle 20.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="d-flex flex-column justify-content-center">
+
+                                    <img class="img-fluid" src="images/Rectangle 21.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center py-5">
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center my-md-0 my-3">
+                    <img src="images/Binance_logo logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center my-md-0 my-3">
+                    <img src="images/Ethereum logo.png" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-4 col-sm-6 d-flex justify-content-center my-md-0 my-3">
+                    <img src="images/Logo_of_Blockchain.io logo.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-7 text-center">
+                    <h1>About Us</h1>
+                    <p class="transparent-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="row align-items-center py-4">
+                <div class="col-lg-6 py-md-3 d-flex justify-content-center text-center flex-column align-items-center">
+                    <img src="images/Group 18.png" alt="" class="w-75">
+                </div>
+                <div class="col-lg-6 py-md-3 d-flex flex-column text-center text-lg-start align-items-lg-start align-items-center mt-5">
+                    <h2>Get Popular NFT</h2>
+                    <p class="transparent-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. 
+                    </p>
+                    <button class="myBtn-primary">Show more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="Colleaction" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-7 text-center">
+                    <h1>Colleaction</h1>
+                    <p class="transparent-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+    
+            <div>
+                <div class="row btns py-2">
+                    <div class="col-md-3 col-sm-6 py-2 py-md-0 px-1"><button data-toggle="pill" href="#menu1" class="btnTab myBtn-transparent w-100">Art</button></div>
+                    <div class="col-md-3 col-sm-6 py-2 py-md-0 px-1"><button data-toggle="pill" href="#menu2" class="btnTab myBtn-transparent w-100">Sport</button></div>
+                    <div class="col-md-3 col-sm-6 py-2 py-md-0 px-1"><button data-toggle="pill" href="#menu3" class="btnTab myBtn-transparent w-100">Photograpy</button></div>
+                    <div class="col-md-3 col-sm-6 py-2 py-md-0 px-1"><button data-toggle="pill" href="#menu4" class="btnTab myBtn-transparent w-100">Pattern</button></div>
+                </div>
+    
+                <div id="menu1" class="row py-3 justify-content-center tab-pane fade show active">
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/Rectangle 23.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection2.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection3.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection4.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection4.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection6.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection7.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection8.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection9.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="menu2" class="row py-3 justify-content-center tab-pane fade">
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection4.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection4.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection6.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/Rectangle 23.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection2.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection3.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection7.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection8.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection9.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu3" class="row py-3 justify-content-center tab-pane fade">
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection2.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection3.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/Rectangle 23.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection4.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection4.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection6.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection7.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection8.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection9.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                </div>
+                <div id="menu4" class="row py-3 justify-content-center tab-pane fade">
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection7.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection8.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection9.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/Rectangle 23.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection2.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection3.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection4.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection4.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6 p-2">
+                        <div class="img-box p-md-3 p-2 bg-dark">
+                            <img src="images/collection6.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+            <div class="row pt-5 justify-content-center ">
+                <div class="col-lg-7 text-center">
+                    <h1>Featured Artworks</h1>
+                    <p class="transparent-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper py-3 justify-content-center">
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/Rectangle 23.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/collection2.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/collection3.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/Rectangle 23.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/collection2.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/collection3.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/Rectangle 23.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/collection2.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                    <div class="swiper-slide p-2">
+                        <div class="img-box p-md-3 p-2  m-2 bg-dark">
+                            <img src="images/collection3.png" class="img-fluid" alt="">
+                            <div class="row py-2">
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">@Johny</p>
+                                    <h3>Yellow Painting</h3>
+                                </div>
+                                <div class="col-6 col-z">
+                                    <p class="transparent-text">Current Bid</p>
+                                    <h3>0.005 ETH</h3>
+                                </div>
+                            </div>
+                            <button class="myBtn-primary w-100">Place a bid</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+           
+           
+
+            <div class="row pt-5 justify-content-center ">
+                <div class="col-lg-7 text-center">
+                    <h1>Featured Artworks</h1>
+                    <p class="transparent-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+
+            <div class="row py-3 justify-content-center">
+                <div class="col-md-4 col-sm-6 p-2">
+                    <div class="img-box p-md-3 p-2 bg-dark">
+                        <img src="images/creator1.png" class="img-fluid" alt="">
+                        <div class="d-flex flex-column text-center py-3 position-relative pt-5">
+                            <img src="images/photo1.png" class="trans-img m-0 text-center mx-auto" alt="">
+                            <h3 class="mt-4">John Wick</h3>
+                            <p class="transparent-text p-0 m-0 lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <button class="myBtn-primary w-100">+ Follow</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-2">
+                    <div class="img-box p-md-3 p-2 bg-dark">
+                        <img src="images/creator2.png" class="img-fluid" alt="">
+                        <div class="d-flex flex-column text-center py-3 position-relative pt-5">
+                            <img src="images/photo2.png" class="trans-img m-0 text-center mx-auto" alt="">
+                            <h3 class="mt-4">John Wick</h3>
+                            <p class="transparent-text p-0 m-0 lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <button class="myBtn-primary w-100">+ Follow</button>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 p-2">
+                    <div class="img-box p-md-3 p-2 bg-dark">
+                        <img src="images/creator3.png" class="img-fluid" alt="">
+                        <div class="d-flex flex-column text-center py-3 position-relative pt-5">
+                            <img src="images/photo3.png" class="trans-img m-0 text-center mx-auto" alt="">
+                            <h3 class="mt-4">John Wick</h3>
+                            <p class="transparent-text p-0 m-0 lh-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        </div>
+                        <button class="myBtn-primary w-100">+ Follow</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="question" class="py-5">
+        <div class="container">
+            <div class="row justify-content-center ">
+                <div class="col-lg-7 text-center">
+                    <h1>Freaquently Asked
+                        Question</h1>
+                    <p class="transparent-text">Wanna Ask Something?</p>
+                </div>
+            </div>
+
+            <div class="row py-5">
+                <div class="col-lg-6 my-3">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed transparent-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Lorem ipsum dolor sit amet?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde autem harum ex cum dignissimos incidunt doloremque, vitae fugiat facere, delectus quae, non possimus illo nesciunt doloribus iure neque blanditiis.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed transparent-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Lorem ipsum dolor sit amet?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde autem harum ex cum dignissimos incidunt doloremque, vitae fugiat facere, delectus quae, non possimus illo nesciunt doloribus iure neque blanditiis.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed transparent-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Lorem ipsum dolor sit amet?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde autem harum ex cum dignissimos incidunt doloremque, vitae fugiat facere, delectus quae, non possimus illo nesciunt doloribus iure neque blanditiis.</div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-3">
+                    <div class="accordion accordion-flush" id="accordionFlushExample2">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed transparent-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2" aria-expanded="false" aria-controls="flush-collapseOne">
+                              Lorem ipsum dolor sit amet?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseOne2" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde autem harum ex cum dignissimos incidunt doloremque, vitae fugiat facere, delectus quae, non possimus illo nesciunt doloribus iure neque blanditiis.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed transparent-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                Lorem ipsum dolor sit amet?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseTwo2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde autem harum ex cum dignissimos incidunt doloremque, vitae fugiat facere, delectus quae, non possimus illo nesciunt doloribus iure neque blanditiis.</div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed transparent-text" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree2" aria-expanded="false" aria-controls="flush-collapseThree">
+                                Lorem ipsum dolor sit amet?
+                            </button>
+                          </h2>
+                          <div id="flush-collapseThree2" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample2">
+                            <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis unde autem harum ex cum dignissimos incidunt doloremque, vitae fugiat facere, delectus quae, non possimus illo nesciunt doloribus iure neque blanditiis.</div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ready justify-content-center">
+                <div class="col-md-7 col-lg-6 col-xl-5">
+                    <div class="p-4 text-center">
+                        <h1 class="py-4">Get ready to collect our NFT</h1>
+                        <button class="myBtn-transparent my-4 py-3">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4 col-sm-6 text-center text-sm-start py-3 py-md-0">
+                <img src="images/PsychoArt.png" alt="">
+                <p class="transparent-text p-0 mt-3 logo-bottom">
+                    The best NFT marketplace website in the world and feel your experience in selling or buy our work
+                </p>
+            </div>
+            <div class="col-md-2 col-sm-6 text-center text-sm-start py-3 py-md-0">
+                <h3>About</h3>
+                <nav>
+                    <a href="#" class="transparent-text">Product</a>
+                    <a href="#" class="transparent-text">Resource</a>
+                    <a href="#" class="transparent-text">Term & Condition</a>
+                    <a href="#" class="transparent-text">FAQ</a>
+                </nav>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center text-sm-start py-3 py-md-0">
+                <h3>Company</h3>
+                <nav>
+                    <a href="#" class="transparent-text">Our Team</a>
+                    <a href="#" class="transparent-text">Partner With Us</a>
+                    <a href="#" class="transparent-text">Privacy & Policy</a>
+                    <a href="#" class="transparent-text">Features</a>
+                </nav>
+            </div>
+            <div class="col-md-3 col-sm-6 text-center text-sm-start py-3 py-md-0">
+                <h3>Contact</h3>
+                <nav>
+                    <a href="#" class="transparent-text">+012 3456789</a>
+                    <a href="#" class="transparent-text">adorableprogrammer@gmail.com</a>
+                    <div class="row py-2">
+                        <div class="col-4">
+                            <i class="transparent-text fab fa-instagram"></i>
+                        </div>
+                        <div class="col-4">
+                            <i class="transparent-text fab fa-facebook"></i>
+                        </div>
+                        <div class="col-4">
+                            <i class="transparent-text fab fa-youtube"></i>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center pt-5">
+                    <p class="transparent-text">Created by <a href="https://telegram.me/aliwerdev">AliwerDev</a> | All Right Reserved!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints:{
+            771: {
+                slidesPerView: 2,
+                spaceBetween: 10,
+            },
+            991: {
+                slidesPerView: 3,
+                spaceBetween: 0,
+            },
+        }
+      });
+    </script>
 </body>
 </html>

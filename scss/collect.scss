@@ -1,0 +1,25 @@
+#collect{
+    h1{
+        font-size: 48px;
+        line-height: 120%;
+        font-weight: bold;
+        margin: 20px 0;
+    }
+    h2{
+        font-size: 30px;
+        line-height: 120%;
+        font-weight: bold;
+    }
+    .cards{
+        display: grid;
+        gap: 5px;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-auto-rows: 75px;
+        .horizontal{
+            grid-column: span 2;
+        }
+        .vertical{
+            grid-row: span 2;
+        }
+    }
+}
