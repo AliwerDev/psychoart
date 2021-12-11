@@ -1,5 +1,15 @@
 header{
+    z-index: 99;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease-in-out;
     padding: 15px 0;
+    &.sticky {
+        background: $body-bg;
+        box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 50px -10px;
+    }
     .navbar-toggler{
         border: none !important;
         outline: none !important;
